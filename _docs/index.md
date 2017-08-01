@@ -1,5 +1,5 @@
 ---
-title: Introduction to Guidelines for IOOS SOS 1.0
+title: Introduction to IOOS Biological Data Services 
 keywords: sample homepage
 tags: [getting_started]
 #sidebar: home_sidebar
@@ -7,31 +7,30 @@ sidebar: mydoc_sidebar
 topnav: topnav
 toc: false
 #permalink: index.html
-summary: This brief description summarizes the content of the Guidelines. The other topics on this site provide additional information and detail about working with all aspects of the IOOS SOS 1.0.
+#summary: This brief description summarizes content, objectives and enrollment process for the IOOS Biological Data Services.
 ---
 
-## IOOS SOS Application Profile
+<!--
+* TOC
+{:toc}
+  -->
 
-U.S. IOOS distributes ocean observations using the OGC Sensor Observation Service. To support this effort U.S. IOOS has developed a profile of SOS v1.0 (henceforth IOOS SOS v1.0) that includes specific behaviors for the SOS interface and for the output formats delivered in response to the three operations of the SOS Core Profile.
-The GitHub repository contains documentation of the IOOS SOS v1.0 profile, example templates for the responses, and information on two reference implementations developed to support the IOOS SOS v1.0 profile. To facilitate the practical implementation of the SOS, IOOS has developed the IOOS Application Profile (AP) for SOS, which includes a series of operation templates, controlled vocabularies, IOOS Conventions for SOS Implementation, and a set of tests for IOOS SOS implementations.
+## [**IOOS Biological Observations Data Services**{: style="color: crimson"}](/biological-data-services-jekyll/biological-observations.html)
 
-### IOOS SOS 1.0 WSDD
+The IOOS Biological Observations Data Services address the Data Management and Communications (DMAC) requirements that pertain to biological observations standards and interoperability applicable to U.S. IOOS and to various observing systems. Biological observations are highly heterogeneous and the variety of formats, logical structures, and sampling methods create significant challenges. The objective of the IOOS Biological Observations Services is to develop and deploy an efficient and effective information infrastructure for biological observations, adding components and links as necessary to serve end-users.
 
-The Web Service Description Document (WSDD) provides a description of a Sensor Observation Service (SOS) that has been developed by U.S. IOOS for deployment by NOAA data providers and IOOS Regional Associations (RAs). This service provides a service consumer with the capability to access ocean observations data products, such as time series and profiles, which have XML-based encodings and included in the SWE Common Data Model.
+## [**IOOS Biological Data Services Enrollment Procedure**{: style="color: crimson"}](/biological-data-services-jekyll/biological-data-procedure.html)
 
-### IOOS SOS 1.0 Templates
+This document describes the data enrollment procedures proposed by IOOS Data Management and Communication (DMAC) to support sharing and integration of aquatic biological data (i.e. IOOS core variables: fish species, fish abundance, zooplankton species, zooplankton abundance, phytoplankton species). However these data services are applicable to any aquatic taxa that have presence, absence and abundance information.
 
- * GetCapabilities: A template for generic (independent of feature type) GetCapabilities response.
- * DescribeSensor-Network: A template for generic (independent of feature type) SensorML DescribeSensor response (network of stations)
- * DescribeSensor-Station: A template for generic (independent of feature type) SensorML DescribeSensor response (single station)
- * OM GetObservation: A template for a generic (independent of feature type) GetObservation response (the result block in this template is empty; see SWE templates for guidance on the result block)
-* SWE-SingleStation-SingleProperty-TimeSeries: A template for SWE Data Record’s static and dynamic fields (single station with a single sensor)
- * SWE-SingleStation-TimeSeriesProfile: A template for SWE Data Record’s static and dynamic fields (a station with profiling sensors)
- * SWE-SingleStation-TimeSeriesProfile-QC: A template for SWE Data Record’s static and dynamic fields (a station with profiling sensors including quality elements for some quantities)
- * SWE-MultiStation-TimeSeries: A template for SWE Data Record’s static and dynamic fields (multiple stations with a variety of sensors)
- * SWE-MultiStation-TimeSeries-QC: A template for SWE Data Record’s static and dynamic fields (multiple stations with a variety of sensors including quality elements for some quantities)
+The document has the following major sections:
 
-### IOOS SOS 1.0 Compliance and Interoperability Tests
+ - **IOOS Basic Principle**
+: Describes the IOOS data principle for sharing ocean observing data.
 
-This document describes a collection of tests that have to be run in order to ensure a required level of compliance with IOOS SOS Profile 1.0 (IOOS Convention), and official OGC SOS 1.0.0 specification.
+ - **IOOS Biological Data Flow**
+: Describes the biological data flow from IOOS Data providers through IOOS Regional Association to US IOOS DMAC system.
+
+ - **Enrollment Procedure**
+: Defines the types of enrollment procedure and the steps of enrolling a data provider.
 
