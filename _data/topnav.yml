@@ -10,7 +10,7 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: IOOS Documentation & Data Sites
+    - title: Documentation Sites
       folderitems:
 #        - title: IOOS Documentation Portal
 #          external_url: http://ioos.github.io/
