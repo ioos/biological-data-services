@@ -169,3 +169,16 @@ entries:
           url: /biological-data-procedure.html#citations
           output: web
 
+  - title: "Media Extras"
+    output: web, pdf
+
+    folderitems:
+
+    - title: "Three Steps to Enrollment (PowerPoint Presentation)"
+      url: /dmac-enrollment-sessions-2015-05-28.ppt
+      output: web
+
+#    - title: "IOOS Biological Data Enrollment Process (recorded webinar)"
+#      url: "https://mmancusa.webex.com/mmancusa/ldr.php?RCID=a08a97a20c0328828c0bc2f4e07f0fa2"
+#      output: web
+
