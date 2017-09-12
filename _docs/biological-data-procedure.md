@@ -56,7 +56,7 @@ Data flow is represented in [**Figure 1**](#Fig-1). IOOS Regional Associations (
 <a name="Fig-1"></a>
 &nbsp; <br> 
 
-![IOOS Biological data flow](/biological-data-services-jekyll/img-fig-1-mod.jpg) 
+![IOOS Biological data flow](/biological-data-services/img-fig-1-mod.jpg) 
 
 **Figure 1. IOOS Biological data flow: from data providers through RAs to IOOS Registry/Catalog/Viewer <br>(i.e. US IOOS Portal) and other National portals (e.g. OBIS-USA, Data.gov, NMFS InPORT) and archiving center (NCEI).** 
 
@@ -85,7 +85,7 @@ The following section of this document describe the steps ([**Figure 2**](#Fig-2
 <a name="Fig-2"></a> 
 &nbsp; <br>
 
-![Procedure steps](/biological-data-services-jekyll/img-fig-2-mod.jpg) 
+![Procedure steps](/biological-data-services/img-fig-2-mod.jpg) 
 
 **Figure 2. Biological data provider’s enrollment procedure steps.**
 
