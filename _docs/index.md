@@ -4,7 +4,7 @@ keywords: sample homepage
 tags: [getting_started]
 #sidebar: home_sidebar
 sidebar: mydoc_sidebar
-topnav: topnav
+topnav: topnav_ioos
 toc: false
 #permalink: index.html
 #summary: This brief description summarizes content, objectives and enrollment process for the IOOS Biological Data Services.
