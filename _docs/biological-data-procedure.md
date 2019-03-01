@@ -4,8 +4,6 @@ tags: []
 keywords: notes, tips, cautions, warnings, admonitions
 last_updated: July 3, 2016
 summary: This document describes the data enrollment procedure proposed by IOOS DMAC to support sharing and integration of aquatic biological data.
-sidebar: mydoc_sidebar
-#topnav: topnav
 toc: false
 #permalink: sos-wsdd-github-notoc.html
 ---
@@ -24,7 +22,7 @@ _The document has the following major sections:_
 - _**IOOS Biological Data Flow** <br>Describes the biological data flow from IOOS Data providers through IOOS Regional Association to US IOOS DMAC system._
 - _**Enrollment Procedure** <br>Defines the types of enrollment procedure and the steps of enrolling a data provider._
 
- 
+
 &nbsp; <br>
 &nbsp; <br>
 
@@ -43,10 +41,10 @@ Philip Goldstein (OBIS-USA)
 
 ## **BASIC PRINCIPLE**{: style="color: crimson"}
 
-IOOS was established with the core principle that observation data should be made freely available to all. This has implications: 
+IOOS was established with the core principle that observation data should be made freely available to all. This has implications:
 
   1. Data providers must be made aware that their data will be offered freely through IOOS.
-   
+
   2. Data providers will be responsible for restricting access to any data which may be too sensitive for general release (e.g. location data for endangered species). Providers are free to manage such control in any way that makes sense in their context.
 
 ## **IOOS BIOLOGICAL DATA FLOW**{: style="color: crimson"}
@@ -54,11 +52,11 @@ IOOS was established with the core principle that observation data should be mad
 Data flow is represented in [**Figure 1**](#Fig-1). IOOS Regional Associations (RA) can enroll biological data providers (i.e. IOOS Biological Core variables: fish species, fish abundance, zooplankton species, zooplankton abundance and phytoplankton species) following the IOOS enrollment procedure outlined and register their web services to the [IOOS Registry](http://www.ioos.noaa.gov/catalog/register.html). For broader dissemination, the IOOS registry will then connect the data to other data portals such as  [Data.gov](http://www.data.gov/), [OBIS](http://www.usgs.gov/obis-usa/), [NMFS InPort](https://inport.nmfs.noaa.gov/inport/), etc., and national Archiving Center ([NOAA's National Centers for Environmental Information (NCEI), formerly the National Oceanographic Data Center (NODC)](http://www.nodc.noaa.gov/)), and make the data accessible to data users.
 
 <a name="Fig-1"></a>
-&nbsp; <br> 
+&nbsp; <br>
 
-![IOOS Biological data flow](/biological-data-services/img-fig-1-mod.jpg) 
+![IOOS Biological data flow](/biological-data-services/img-fig-1-mod.jpg)
 
-**Figure 1. IOOS Biological data flow: from data providers through RAs to IOOS Registry/Catalog/Viewer <br>(i.e. US IOOS Portal) and other National portals (e.g. OBIS-USA, Data.gov, NMFS InPORT) and archiving center (NCEI).** 
+**Figure 1. IOOS Biological data flow: from data providers through RAs to IOOS Registry/Catalog/Viewer <br>(i.e. US IOOS Portal) and other National portals (e.g. OBIS-USA, Data.gov, NMFS InPORT) and archiving center (NCEI).**
 
 &nbsp; <br>
 
@@ -82,10 +80,10 @@ The IOOS model is one of a network of distributed data services. One benefit of 
 
 The following section of this document describe the steps ([**Figure 2**](#Fig-2)) by which an RA would enroll biological data providers in their region.
 
-<a name="Fig-2"></a> 
+<a name="Fig-2"></a>
 &nbsp; <br>
 
-![Procedure steps](/biological-data-services/img-fig-2-mod.jpg) 
+![Procedure steps](/biological-data-services/img-fig-2-mod.jpg)
 
 **Figure 2. Biological data provider’s enrollment procedure steps.**
 
@@ -96,7 +94,7 @@ Data files are the most common way for data providers to send their data to the 
 The core component of IOOS BDS is an occurrence record. An occurrence is an observer's, or an observing system's record of a named taxon at a specific location and time along with detailed information about the circumstances of the observation. A collection of occurrence records forms a database-like table of data, with columns (each with a specific type of information) and rows (each with an occurrence record). Though occurrence information can exist in other data structures, a table with columns and rows is a helpful model.
 
 Occurrence data can be made more consistent by using standard observation methods and by following standards, such as IOOS BDS, for formatting and presenting the data. Data that is more consistent is more useful.
- 
+
 ### **Step \# 1: Format Occurrence Data to enroll data in IOOS BDS**{: style="color: crimson"}
 
 The goal is to obtain data in taxon-location-time format. The RA will work with the provider in two steps: (1a) verify that the contents of the dataset do in fact contain occurrence information (observed taxon-location-date-details), and (1b) perform data manipulation, such as relational joins, to gather the occurrence data in a single table with columns and rows with each row representing a taxon-specific occurrence. A row may represent a group of occurences, after binning by sex, size, or other characteristics of biology or the observation method, or they may be aggregated as totals without division into such bins. Each column from left to right across the row represents detail about the occurrence. For more on the use and meaning of each column, see [Step \#3](/biological-data-procedure/#step--3-format-data-to-ioos-bds).
@@ -164,7 +162,7 @@ An example of the Enrollment Journal may be found in the [APPENDIX](https://gith
 
 ### **Revisions**{: style="color: crimson"}
 
-| Date | Author | Version | Notes 
+| Date | Author | Version | Notes
 | ------ | ---------- | ------------| ---------                                                      
 |August 15, 2013 | Hassan Moustahfid | 0.9 | Created
 |September 4-6, 2013 | Philip Goldstein | 0.9 | Added information to "Enrollment Procedure" section; added text, pp 9, 12, 13, 14; appended enrollment journal, pp 15-49
@@ -173,8 +171,8 @@ An example of the Enrollment Journal may be found in the [APPENDIX](https://gith
 |January 10, 2014 | Hassan Moustahfid  | 0.9 | Revised in response to Charly Alexander, Rob Ragsdale and Derrick Snowden (US IOOS) comments
 | February 14, 2014  | Hassan Moustahfid | 0.9 | Revised in response to Jim Potemra (PACIOOS), Vembu Subramanian (SECOORA), Matt Howard (GCOOS-RA) and Bob Simons (NOAA/SWFSC/ER) comments/edits.
 | March 28, 2014  | Hassan Moustahfid | 1.0       
-                                                           
- 
+
+
 ### **Endorsement Disclaimer**{: style="color: crimson"}
 
 Mention of a commercial company or product does not constitute an endorsement by NOAA. Use of information from this publication for publicity or advertising purposes concerning proprietary products or the tests of such products is not authorized

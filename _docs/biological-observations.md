@@ -4,8 +4,6 @@ tags: [BDS,"Biological Data Services",IOOS,observations]
 keywords: notes, tips, cautions, warnings, admonitions
 last_updated: July 3, 2016
 summary: The objective of the IOOS Biological Observations Services is to develop and deploy an efficient and effective information infrastructure for biological observations, adding components and links as necessary to serve end-users.
-sidebar: mydoc_sidebar
-#topnav: topnav
 toc: false
 #permalink: sos-wsdd-github-notoc.html
 ---
@@ -18,9 +16,9 @@ toc: false
 
 ## **Introduction**{: style="color: crimson"}
 
-The IOOS Biological Observations Data Services address the Data Management and Communications (DMAC) requirements that pertain to biological observations standards and interoperability applicable to U.S. IOOS and to various observing systems. Biological observations are highly heterogeneous and the variety of formats, logical structures, and sampling methods create significant challenges. 
+The IOOS Biological Observations Data Services address the Data Management and Communications (DMAC) requirements that pertain to biological observations standards and interoperability applicable to U.S. IOOS and to various observing systems. Biological observations are highly heterogeneous and the variety of formats, logical structures, and sampling methods create significant challenges.
 
-## **Biological Data Standards**{: style="color: crimson"} 
+## **Biological Data Standards**{: style="color: crimson"}
 
 The IOOS Biological Observations Data Services had adopted/adapted or had built the following data standards:
 
@@ -29,7 +27,7 @@ The IOOS Biological Observations Data Services had adopted/adapted or had built 
 * [FGDC Content Standard for Digital Geospatial Metadata (CSDGM)](http://www.fgdc.gov/metadata/geospatial-metadata-standards#csdgm) and [ISO 19115-2](http://service.ncddc.noaa.gov/rdn/www/metadata-standards/documents/MI-Metadata.pdf) are the adopted Metadata standards.
 * [ERDDAP](http://coastwatch.pfeg.noaa.gov/erddap/index.html) is the main webservice for this project.
 * [Environmental Data Connector (EDC)](http://www.pfeg.noaa.gov/products/EDC/) is the client developed to connect directly to ERDDAP and access data using customer application tools such as [ArcGIS](http://www.esri.com/software/arcgis) and [R Project](http://www.r-project.org/).
-* To learn more about the biological data standards implemented at the Pacific Islands Region please follow the following links: 
+* To learn more about the biological data standards implemented at the Pacific Islands Region please follow the following links:
   - [Biological data services at the Pacific Islands Region website](http://pacioos-mapserver2.ancl.hawaii.edu/erddap/info/index.html?page=1&itemsPerPage=1000)
   - [FGDC and ISO Metadata](http://oos.soest.hawaii.edu/cgi-bin/get_metadata.py?id=PACN_FISH_TRANSECT&format=fgdc)
 
@@ -39,14 +37,14 @@ The IOOS Biological Observations Data Services had adopted/adapted or had built 
 
 ## **IOOS Biological Data Terminology**{: style="color: crimson"}
 
-The IOOS Biological Data terminology is a list of data fields with names, descriptions, and format notes. It was based on ratified Darwin core, Dublin core and proposed IOOS vocabularies. XML guide was based on Darwin core XML guidance. CF Conventions had been applied to biological data definition at the field level. This is to assure that IOOS Biological Project will be compatible with other IOOS geophysical datasets. In order to “map” your database fields to the IOOS Biological Data terminology fields you will need to download the following files. 
+The IOOS Biological Data terminology is a list of data fields with names, descriptions, and format notes. It was based on ratified Darwin core, Dublin core and proposed IOOS vocabularies. XML guide was based on Darwin core XML guidance. CF Conventions had been applied to biological data definition at the field level. This is to assure that IOOS Biological Project will be compatible with other IOOS geophysical datasets. In order to “map” your database fields to the IOOS Biological Data terminology fields you will need to download the following files.
 
 ### **Current Revision**{: style="color: crimson"}
- 
+
 * [US IOOS and OBIS-USA Marine Biogeography Terms v2.1 @ Marine Metadata Interoperability (MMI) Ontology Registry and Repository (ORR) Website](http://mmisw.org/ont/ioos/marine_biogeography).
 * Submitted by Philip Goldstein, USGS/OBIS-USA on 2016-05-13.
 
-#### &nbsp; &nbsp; _**Definitions**_{: style="color: crimson"} 
+#### &nbsp; &nbsp; _**Definitions**_{: style="color: crimson"}
 
 |	Term	|	Darwin Core or Extension	|	Definition |   Section |    Reference
 |  -------------	| --------------------------------------------- | ----------------- | ------------ | ----------------
@@ -1057,29 +1055,3 @@ The IOOS Biological Data terminology is a list of data fields with names, descri
 * [IOOS Biological Terms at Marine Metadata Interoperability (MMI) Ontology Registry and Repository (ORR) Website](http://mmisw.org/orr/#http://mmisw.org/ont/ioos/biological):
   - The MMI ORR provides reference URLs that promote machine-to-machine discovery and use of ontologies and vocabularies.
   -  To find out earlier version of the ontology, press the button "Versions" on top of the screen, and choose a URI from the drop-down window.  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

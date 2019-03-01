@@ -1,10 +1,7 @@
 ---
-title: Introduction to IOOS Biological Data Services 
+title: Introduction to IOOS Biological Data Services
 keywords: sample homepage
 tags: [getting_started]
-#sidebar: home_sidebar
-sidebar: mydoc_sidebar
-#topnav: topnav_ioos
 toc: false
 #permalink: index.html
 #summary: This brief description summarizes content, objectives and enrollment process for the IOOS Biological Data Services.
@@ -33,4 +30,3 @@ The document has the following major sections:
 
  - **Enrollment Procedure**
 : Defines the types of enrollment procedure and the steps of enrolling a data provider.
-
