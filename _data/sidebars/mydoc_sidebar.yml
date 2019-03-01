@@ -4,7 +4,7 @@ entries:
 - title: sidebar
   product: IOOS Biological Data Services & Procedures
   levels: three
-  version: 
+  version:
   folders:
 
   - title:
@@ -20,7 +20,7 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: "IOOS Biological Observations Data Services"
+  - title: IOOS Biological Observations Data Services
     output: web, pdf
 
     folderitems:
@@ -43,7 +43,7 @@ entries:
 
       subfolders:
 
-      - title: "Current Revision"
+      - title: Current Revision
         output: web
 
         subfolderitems:
@@ -65,7 +65,7 @@ entries:
           url: /biological-observations.html#previous-revisions
           output: web
 
-  - title: "IOOS Biological Data Services Enrollment Procedure"
+  - title: IOOS Biological Data Services Enrollment Procedure
     output: web, pdf
 
     folderitems:
@@ -84,44 +84,44 @@ entries:
 
       subfolders:
 
-      - title: "Enrollment Procedure Steps"
+      - title: Enrollment Procedure Steps
         output: web
 
         subfolderitems:
 
-        - title: "Step # 1: Format Occurence Data"
+        - title: Step # 1: Format Occurence Data
           url: /biological-data-procedure.html#step--1-format-occurrence-data-to-enroll-data-in-ioos-bds
           output: web
 
-        - title: "Step # 2: Gather Human Metadata"
+        - title: Step # 2: Gather Human Metadata
           url: /biological-data-procedure.html#step--2-gather-human-metadata
           output: web
 
-        - title: "Step # 3: Format Data to IOOS BDS"
+        - title: Step # 3: Format Data to IOOS BDS
           url: /biological-data-procedure.html#step--3-format-data-to-ioos-bds
           output: web
 
-        - title: "Step # 4: Generate Machine Metadata"
+        - title: Step # 4: Generate Machine Metadata
           url: /biological-data-procedure.html#step--4-generate-machine-metadata
           output: web
 
-        - title: "Step # 5: Convert Metadata to ISO 19115 XML"
+        - title: Step # 5: Convert Metadata to ISO 19115 XML
           url: /biological-data-procedure.html#step--5-convert-metadata-to-iso-19115-xml
           output: web
 
-        - title: "Step # 6: Create Service Configurations"
+        - title: Step # 6: Create Service Configurations
           url: /biological-data-procedure.html#step--6-create-service-configurations
           output: web
 
-        - title: "Step # 7: Publish Metadata"
+        - title: Step # 7: Publish Metadata
           url: /biological-data-procedure.html#step--7-publish-metadata
           output: web
 
-        - title: "Step # 8: Archive with NCEI"
+        - title: Step # 8: Archive with NCEI
           url: /biological-data-procedure.html#step--8-archive-with-noaas-national-centers-for-environmental-information-ncei
           output: web
 
-        - title: "Step # 9: Integrating with OBIS-USA"
+        - title: Step # 9: Integrating with OBIS-USA
           url: /biological-data-procedure.html#step--9-synchronizing-data-and-metadata-with-obis-usa-and-ioos-system
           output: web
 
@@ -131,45 +131,44 @@ entries:
 
       subfolders:
 
-      - title: "Reference Information"
+      - title: Reference Information
         output: web
 
         subfolderitems:
 
-        - title: "Contribution"
+        - title: Contribution
           url: /biological-data-procedure.html#contribution
           output: web
 
-        - title: "Validation"
+        - title: Validation
           url: /biological-data-procedure.html#validation
           output: web
 
-        - title: "Revisions"
+        - title: Revisions
           url: /biological-data-procedure.html#revisions
           output: web
 
-        - title: "Endorsement Disclaimer"
+        - title: Endorsement Disclaimer
           url: /biological-data-procedure.html#endorsement-disclaimer
           output: web
 
-        - title: "Acknowledgments"
+        - title: Acknowledgments
           url: /biological-data-procedure.html#acknowledgments
           output: web
 
-        - title: "Citations"
+        - title: Citations
           url: /biological-data-procedure.html#citations
           output: web
 
-  - title: "Media Extras"
+  - title: Media Extras
     output: web, pdf
 
     folderitems:
 
-    - title: "Three Steps to Enrollment (PowerPoint Presentation)"
+    - title: Three Steps to Enrollment (PowerPoint Presentation)
       url: /dmac-enrollment-sessions-2015-05-28.ppt
       output: web
 
-#    - title: "IOOS Biological Data Enrollment Process (recorded webinar)"
-#      url: "https://mmancusa.webex.com/mmancusa/ldr.php?RCID=a08a97a20c0328828c0bc2f4e07f0fa2"
+#    - title: IOOS Biological Data Enrollment Process (recorded webinar)
+#      url: https://mmancusa.webex.com/mmancusa/ldr.php?RCID=a08a97a20c0328828c0bc2f4e07f0fa2
 #      output: web
-
