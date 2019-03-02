@@ -14,11 +14,11 @@ toc: false
 -->
 
 
-## **Introduction**{: style="color: crimson"}
+## **Introduction**
 
 The IOOS Biological Observations Data Services address the Data Management and Communications (DMAC) requirements that pertain to biological observations standards and interoperability applicable to U.S. IOOS and to various observing systems. Biological observations are highly heterogeneous and the variety of formats, logical structures, and sampling methods create significant challenges.
 
-## **Biological Data Standards**{: style="color: crimson"}
+## **Biological Data Standards**
 
 The IOOS Biological Observations Data Services had adopted/adapted or had built the following data standards:
 
@@ -35,16 +35,16 @@ The IOOS Biological Observations Data Services had adopted/adapted or had built 
 <br>
 
 
-## **IOOS Biological Data Terminology**{: style="color: crimson"}
+## **IOOS Biological Data Terminology**
 
 The IOOS Biological Data terminology is a list of data fields with names, descriptions, and format notes. It was based on ratified Darwin core, Dublin core and proposed IOOS vocabularies. XML guide was based on Darwin core XML guidance. CF Conventions had been applied to biological data definition at the field level. This is to assure that IOOS Biological Project will be compatible with other IOOS geophysical datasets. In order to “map” your database fields to the IOOS Biological Data terminology fields you will need to download the following files.
 
-### **Current Revision**{: style="color: crimson"}
+### **Current Revision**
 
 * [US IOOS and OBIS-USA Marine Biogeography Terms v2.1 @ Marine Metadata Interoperability (MMI) Ontology Registry and Repository (ORR) Website](http://mmisw.org/ont/ioos/marine_biogeography).
 * Submitted by Philip Goldstein, USGS/OBIS-USA on 2016-05-13.
 
-#### &nbsp; &nbsp; _**Definitions**_{: style="color: crimson"}
+#### &nbsp; &nbsp; _**Definitions**_
 
 |	Term	|	Darwin Core or Extension	|	Definition |   Section |    Reference
 |  -------------	| --------------------------------------------- | ----------------- | ------------ | ----------------
@@ -192,7 +192,7 @@ The IOOS Biological Data terminology is a list of data fields with names, descri
 
 
 
-#### &nbsp; &nbsp; _**XML Schema**_{: style="color: crimson"}
+#### &nbsp; &nbsp; _**XML Schema**_
 
 ```
 <?xml version="1.0"?>
@@ -1050,7 +1050,7 @@ The IOOS Biological Data terminology is a list of data fields with names, descri
 
 ```
 
-### **Previous Revisions**{: style="color: crimson"}
+### **Previous Revisions**
 
 * [IOOS Biological Terms at Marine Metadata Interoperability (MMI) Ontology Registry and Repository (ORR) Website](http://mmisw.org/orr/#http://mmisw.org/ont/ioos/biological):
   - The MMI ORR provides reference URLs that promote machine-to-machine discovery and use of ontologies and vocabularies.
