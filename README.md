@@ -1,2 +1,3 @@
-# sos-guidelines
-IOOS SOS Guidelines pages with Jekyll Documentation Theme
+# biological-data-guidelines
+IOOS biological data guidelines pages with Jekyll Documentation Theme
+website: https://ioos.github.io/biological-data-services
